@@ -176,6 +176,9 @@ input::placeholder {
     padding: 8rem;
     background-color: #f5f5f5;
     height: 40vh;
+    
+    
+
 }
 .tabs-section{
     display: flex;
@@ -378,12 +381,12 @@ input::placeholder {
         justify-content: center;
         gap:1px;
         
-        width: 18.4vw;
+        width: 17vw;
         .price-rating{
             background-color: #ff8b38;
             height: 30px;
             margin:-1px;
-            width:20vw;
+            width:100%;
             color:white;
             font-weight: 700;
             display: flex;
@@ -395,15 +398,15 @@ input::placeholder {
             background-color: #ff8b38;
             height: 5px;
             margin:-1px;
-            width:20vw;
+            width:100%;
             color:white;
         }
         h6{
             background-color: #333333;
             color:white;
-            width: 18.4vw;
+            width: 100%;
             font-size: large;
-            padding: 1rem;
+            padding-top: 1rem;
 
 
         }
@@ -413,7 +416,7 @@ input::placeholder {
             gap: 1px;
             list-style: none;
             padding-left: 0px;
-            width: 20vw;
+            width: 100%;
         }
         li{
             background-color: white;
@@ -424,8 +427,8 @@ input::placeholder {
         .grey-part{
             background-color: #333333;
             color:white;
-            padding: 1rem;
-            width: 18.4vw;
+            padding-bottom: 1rem;
+            width: 100%;
 
                 .slogan{
                     text-decoration: none;
@@ -474,6 +477,28 @@ input::placeholder {
     hr{
         background-color: #ff8b38;
     }
+    .customer{
+        display: flex;
+        flex-direction: column;
+        .buble{
+            background: url("/images/textBubble.png")no-repeat;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 273px;
+            height: 147px;
+
+        }
+            p{              
+                padding-top: 80px;
+                padding-right: 20px;
+                padding-bottom: 50px;
+                padding-left: 20px;;
+                color: #666;
+                width: 273px;
+                height: 147px;
+                            }
+    }
         .clients-sections{
             display: flex;
             flex-direction: row;
@@ -486,6 +511,18 @@ input::placeholder {
                             width: 70px;
                             height: 70px;
                             border-radius:35px;
+                            display: flex;
+                            flex-direction: row;
+                            gap:1rem;
+                                .details{
+                                    display:flex;
+                                    flex-direction: column;
+                                    justify-content: center;
+                                    padding: 1rem;
+                                        p{
+                                            padding: 0;
+                                        }
+                                }
                             
                         }
                 }
