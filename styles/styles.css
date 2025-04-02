@@ -529,3 +529,716 @@ input::placeholder {
         }
 
 }
+.container-eight {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/bg2.png") no-repeat;
+    color: white;
+    height: auto;
+    gap: 2rem;
+}
+
+.container-eight h2 {
+    font-size: 2.5rem;
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+
+.container-eight hr {
+    background-color: white;
+    width: 60px;
+    margin: 20px auto;
+}
+
+.container-eight p {
+    max-width: 800px;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+.container-eight .btn {
+    padding: 10px 40px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.container-nine {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 20px;
+    background-color: white;
+    gap: 3rem;
+}
+
+.contact-part-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+}
+
+.contact-part-1 h2 {
+    font-size: 2.5rem;
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+
+.contact-part-1 hr {
+    background-color: #ff8b38;
+    width: 60px;
+    margin: 20px auto;
+}
+
+.contact-part-1 p {
+    color: #86878b;
+    max-width: 600px;
+}
+
+.contact-part-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+    gap: 2rem;
+    margin-bottom: 20px;
+}
+
+.form-1 {
+    width: 45%;
+}
+
+.form-1 form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.form-1 input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    box-sizing: border-box;
+    font-size: 14px;
+    outline: none;
+}
+
+.form-1 input::placeholder {
+    color: #bdbdbd;
+}
+
+.form-2 {
+    width: 45%;
+}
+
+.form-2 textarea {
+    width: 100%;
+    height: 200px;
+    padding: 12px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    box-sizing: border-box;
+    font-size: 14px;
+    resize: none;
+    outline: none;
+}
+
+.form-2 textarea::placeholder {
+    color: #bdbdbd;
+}
+
+.container-nine button {
+    padding: 10px 40px;
+    background-color: #ff8b38;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+}
+
+.container-nine button:hover {
+    background-color: #e67e22;
+}
+@media (max-width: 768px) {
+    .contact-part-2 {
+        flex-direction: column;
+    }
+    
+    .form-1, .form-2 {
+        width: 100%;
+    }
+}
+footer {
+    background-color: #000;
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+}
+.social-networks {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 20px;
+}
+.social-networks i {
+    cursor: pointer;
+    transition: color 0.3s;
+}
+.social-networks i:hover {
+    color: #ff8b38 !important;
+}
+.making-of {
+    font-size: 0.9rem;
+    color: #86878b;
+}
+.making-of a {
+    color: #ff8b38;
+    text-decoration: none;
+}
+.making-of a:hover {
+    text-decoration: underline;
+}
+@media (min-width: 1600px) {
+    .nav-bar {
+        gap: 32rem;
+    }
+    .container-first-1 {
+        max-width: 700px;
+        margin-left: 10rem;
+    }
+    .container-first-1 h1 {
+        font-size: 3rem;
+    }
+    .form-container {
+        width: 22vw;
+    }
+    .social-media {
+        margin: 0.1rem 15rem;
+    }
+    .container-second {
+        gap: 15rem;
+        padding: 10rem;
+    }
+    .tabs-section button {
+        width: 6vw;
+    }
+    .text-section {
+        max-width: 650px;
+    }
+    .container-third {
+        gap: 20rem;
+    }
+    .text-third {
+        width: 30vw;
+    }
+    .container-fourth {
+        gap: 20rem;
+    }
+    .text-fourth {
+        width: 30vw;
+    }
+    .second-part {
+        gap: 5rem;
+    }
+    .icon-part {
+        width: 18vw;
+        max-width: 350px;
+    }
+    .container-cards {
+        gap: 8rem;
+    }
+    .card {
+        width: 15vw;
+        max-width: 280px;
+    }
+    .clients-sections {
+        gap: 20rem;
+    }
+    .container-first,
+    .container-third,
+    .container-fourth,
+    .container-five,
+    .container-six,
+    .container-seven,
+    .container-nine {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
+@media (min-width: 1280px) {
+    .nav-bar {
+        gap: 23rem;
+        padding: 1rem;
+    }
+    .container-first-1 {
+        width: 50vw;
+        margin: 4rem;
+    }
+    .container-first-2 {
+        width: 50vw;
+    }
+    .form-container {
+        width: 25vw;
+    }
+    .social-media {
+        margin: 0.1rem 10rem;
+    }
+    .social-1 {
+        width: 30vw;
+    }
+    .icons {
+        width: 65vw;
+    }
+    .container-second {
+        gap: 10rem;
+        padding: 8rem;
+    }
+    .tabs-section button {
+        width: 8vw;
+    }
+    .text-section {
+        max-width: 600px;
+    }
+    .container-third {
+        gap: 15rem;
+    }
+    .text-third {
+        width: 35vw;
+    }
+    .container-fourth {
+        gap: 15rem;
+    }
+    .text-fourth {
+        width: 35vw;
+    }
+    .second-part {
+        gap: 2.5rem;
+    }
+    .icon-part {
+        width: 20vw;
+    }
+    .container-cards {
+        gap: 6rem;
+    }
+    .card {
+        width: 17vw;
+    }
+    .clients-sections {
+        gap: 15rem;
+    }
+    .contact-part-2 {
+        max-width: 1200px;
+    }
+    .container-first {
+        background-size: cover;
+        background-position: center;
+    }
+    .container-eight {
+        background-size: cover;
+        background-position: center;
+    }
+}
+@media (max-width: 1279px) {
+    .nav-bar {
+        gap: 15rem;
+        padding: 1rem 2rem;
+    }
+    .container-first-1 {
+        width: 48vw;
+        margin: 3rem;
+        padding: 1rem;
+    }
+    .container-first-2 {
+        width: 48vw;
+    }
+    .form-container {
+        width: 30vw;
+    }
+    .social-media {
+        margin: 0.1rem 6rem;
+    }
+    .social-1 {
+        width: 32vw;
+    }
+    .container-second {
+        gap: 6rem;
+        padding: 6rem;
+    }
+    .tabs-section button {
+        width: 10vw;
+    }
+    .text-section {
+        max-width: 500px;
+    }
+    .container-third {
+        gap: 8rem;
+    }
+    .text-third {
+        width: 38vw;
+    }
+    .container-fourth {
+        gap: 8rem;
+    }
+    .text-fourth {
+        width: 38vw;
+    }
+    .second-part {
+        gap: 2rem;
+    }
+    .icon-part {
+        width: 22vw;
+    }
+    .container-cards {
+        gap: 4rem;
+    }
+    .card {
+        width: 20vw;
+    }
+    .clients-sections {
+        gap: 10rem;
+    }
+    .contact-part-2 {
+        max-width: 1000px;
+    }
+}
+@media (min-width: 921px) {
+    .container-first-1 {
+        width: 45vw;
+    }
+    
+    .container-first-2 {
+        width: 45vw;
+    }
+    
+    .form-container {
+        width: 25vw;
+    }
+    .container-second {
+        gap: 8rem;
+    }
+    .container-third {
+        gap: 10rem;
+    }
+    .container-fourth {
+        gap: 10rem;
+    }
+    .icon-part {
+        width: 20vw;
+    }
+    .container-cards {
+        gap: 4rem;
+    }
+    
+    .card {
+        width: 17vw;
+    }
+    .clients-sections {
+        flex-direction: column;
+    }
+}
+@media (min-width: 769px) and (max-width: 920px) {
+    .nav-bar {
+        gap: 5rem;
+        padding: 1rem 1.5rem;
+    }
+    
+    .nav-2 ul {
+        gap: 1.5rem;
+    }
+    .container-first-1 {
+        width: 45vw;
+        margin: 3rem;
+    }
+    
+    .container-first-1 h1 {
+        font-size: 2rem;
+    }
+    
+    .container-first-2 {
+        width: 45vw;
+    }
+    
+    .form-container {
+        width: 35vw;
+    }
+    .social-media {
+        margin: 0.1rem 5rem;
+    }
+    
+    .social-1 {
+        width: 35vw;
+    }
+    
+    .icons {
+        width: 60vw;
+    }
+    .container-second {
+        gap: 5rem;
+        padding: 5rem;
+    }
+    
+    .tabs-section button {
+        width: 10vw;
+    }
+    
+    .text-section {
+        max-width: 450px;
+    }
+    .container-third {
+        gap: 7rem;
+        padding: 2rem;
+    }
+    
+    .text-third {
+        width: 40vw;
+    }
+    
+    .img-third img {
+        max-width: 100%;
+    }
+    .container-fourth {
+        gap: 7rem;
+        padding: 2rem;
+    }
+    
+    .text-fourth {
+        width: 40vw;
+    }
+    
+    .container-fourth img {
+        max-width: 100%;
+    }
+    .icon-part {
+        width: 25vw;
+    }
+    .container-cards {
+        gap: 3rem;
+    }
+    
+    .card {
+        width: 22vw;
+    }
+    .clients-sections {
+        gap: 8rem;
+    }
+}
+@media (max-width: 768px) {
+    .nav-bar {
+        gap: 2rem;
+        justify-content: space-between;
+        padding: 1rem 2rem;
+    }
+    .container-first {
+        flex-direction: column;
+        height: auto;
+        padding: 2rem 0;
+    }
+    
+    .container-first-1 {
+        width: 90%;
+        margin: 2rem auto;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .container-first-2 {
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .form-container {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .social-media {
+        flex-direction: column;
+        margin: 1rem;
+        gap: 1rem;
+    }
+    .social-1 {
+        width: 90%;
+        text-align: center;
+        padding: 1rem;
+    }
+    .icons {
+        width: 100%;
+        padding: 1rem;
+    }
+    .container-second {
+        flex-direction: column;
+        gap: 3rem;
+        padding: 3rem 1rem;
+        height: auto;
+    }
+    .tabs-section button {
+        width: 100px;
+    }
+    .container-third {
+        flex-direction: column-reverse;
+        gap: 3rem;
+        height: auto;
+        padding: 3rem 1rem;
+    }
+    .text-third {
+        width: 90%;
+    }
+    .container-fourth {
+        flex-direction: column;
+        gap: 3rem;
+        height: auto;
+        padding: 3rem 1rem;
+    }
+    .text-fourth {
+        width: 90%;
+        order: 2;
+    }
+    .container-fourth img {
+        order: 1;
+        max-width: 90%;
+    }
+    .container-five {
+        height: auto;
+        padding: 3rem 1rem;
+    }
+    .second-part {
+        flex-direction: column;
+    }
+    .icon-part {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .container-six {
+        height: auto;
+        padding: 3rem 1rem;
+    }
+    .container-cards {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    
+    .card {
+        width: 80%;
+    }
+    .container-seven {
+        height: auto;
+        padding: 3rem 1rem;
+    }
+    .clients-sections {
+        flex-direction: column;
+        gap: 3rem;
+    }
+}
+@media (max-width: 480px) {
+    .nav-bar {
+        gap: 1rem;
+    }
+    
+    .nav-2 ul {
+        gap: 1rem;
+    }
+    .container-first-1 h1 {
+        font-size: 1.8rem;
+    }
+    .form-container {
+        width: 90%;
+    }
+    .icons {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .container-five h3 {
+        font-size: 1.8rem;
+    }
+    .container-six h3 {
+        font-size: 1.8rem;
+    }
+    .card {
+        width: 90%;
+    }
+    .container-seven h2 {
+        font-size: 1.8rem;
+    }
+    .container-eight h2 {
+        font-size: 1.8rem;
+    }
+    .contact-part-1 h2 {
+        font-size: 1.8rem;
+    }
+}
+@media (max-width: 352px) {
+    .nav-bar {
+        flex-direction: column;
+        height: auto;
+        padding: 1rem 0.5rem;
+    }
+    
+    .nav-1 {
+        margin-bottom: 1rem;
+    }
+    
+    .nav-2 ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0.8rem;
+    }
+    .container-first-1 h1 {
+        font-size: 1.5rem;
+    }
+    
+    .container-first-1 p {
+        font-size: 0.9rem;
+    }
+    .social-1 h4 {
+        font-size: 1.2rem;
+    }
+    .icons {
+        gap: 0.5rem;
+    }
+    .text-section h4 {
+        font-size: 1.2rem;
+    }
+    .text-section p {
+        font-size: 0.9rem;
+    }
+    .container-five h3 {
+        font-size: 1.5rem;
+    }
+    .container-six h3 {
+        font-size: 1.5rem;
+    }
+    .container-seven h2 {
+        font-size: 1.5rem;
+    }
+    .buble p {
+        font-size: 0.9rem;
+    }
+    .container-eight h2 {
+        font-size: 1.5rem;
+    }
+    .container-eight p {
+        font-size: 0.9rem;
+    }
+    .contact-part-1 h2 {
+        font-size: 1.5rem;
+    }
+    .contact-part-1 p {
+        font-size: 0.9rem;
+    }
+}
+
+
+
