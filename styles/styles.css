@@ -11,7 +11,8 @@
     padding:1rem;
     justify-content: space-around;
     gap:23rem;
-    height: 62px;
+    height: auto;
+    min-height: 62px;
     flex-wrap:wrap;
     align-items: center;
 
@@ -779,189 +780,118 @@ footer {
         padding-right: 10%;
     }
 }
-@media (min-width: 1280px) {
+/* Large Screens (1280px - 1599px) */
+@media (min-width: 1280px) and (max-width: 1599px) {
     .nav-bar {
-        gap: 23rem;
-        padding: 1rem;
+        padding: 1rem 8%;
     }
+    
     .container-first-1 {
-        width: 50vw;
         margin: 4rem;
     }
-    .container-first-2 {
-        width: 50vw;
-    }
-    .form-container {
-        width: 25vw;
-    }
-    .social-media {
-        margin: 0.1rem 10rem;
-    }
-    .social-1 {
-        width: 30vw;
-    }
-    .icons {
-        width: 65vw;
-    }
+    
     .container-second {
         gap: 10rem;
         padding: 8rem;
     }
-    .tabs-section button {
-        width: 8vw;
-    }
+    
     .text-section {
         max-width: 600px;
     }
-    .container-third {
-        gap: 15rem;
-    }
-    .text-third {
-        width: 35vw;
-    }
+    
+    .container-third,
     .container-fourth {
         gap: 15rem;
     }
+    
+    .text-third,
     .text-fourth {
-        width: 35vw;
+        width: 35%;
     }
-    .second-part {
-        gap: 2.5rem;
-    }
+    
     .icon-part {
-        width: 20vw;
+        width: 20%;
     }
+    
     .container-cards {
         gap: 6rem;
     }
-    .card {
-        width: 17vw;
-    }
+    
     .clients-sections {
         gap: 15rem;
     }
-    .contact-part-2 {
-        max-width: 1200px;
-    }
-    .container-first {
-        background-size: cover;
-        background-position: center;
-    }
-    .container-eight {
-        background-size: cover;
-        background-position: center;
-    }
 }
-@media (max-width: 1279px) {
+
+/* Medium Large Screens (921px - 1279px) */
+@media (min-width: 921px) and (max-width: 1279px) {
     .nav-bar {
-        gap: 15rem;
-        padding: 1rem 2rem;
+        padding: 1rem 5%;
     }
+    
     .container-first-1 {
-        width: 48vw;
         margin: 3rem;
         padding: 1rem;
     }
-    .container-first-2 {
-        width: 48vw;
-    }
-    .form-container {
-        width: 30vw;
-    }
-    .social-media {
-        margin: 0.1rem 6rem;
-    }
-    .social-1 {
-        width: 32vw;
-    }
+    
     .container-second {
         gap: 6rem;
-        padding: 6rem;
+        padding: 6rem 5%;
     }
+    
     .tabs-section button {
-        width: 10vw;
+        width: 110px;
     }
+    
     .text-section {
         max-width: 500px;
     }
-    .container-third {
-        gap: 8rem;
-    }
-    .text-third {
-        width: 38vw;
-    }
+    
+    .container-third,
     .container-fourth {
         gap: 8rem;
+        padding: 3rem 5%;
     }
+    
+    .text-third,
     .text-fourth {
-        width: 38vw;
+        width: 38%;
     }
+    
     .second-part {
         gap: 2rem;
     }
+    
     .icon-part {
-        width: 22vw;
-    }
-    .container-cards {
-        gap: 4rem;
-    }
-    .card {
-        width: 20vw;
-    }
-    .clients-sections {
-        gap: 10rem;
-    }
-    .contact-part-2 {
-        max-width: 1000px;
-    }
-}
-@media (min-width: 921px) {
-    .container-first-1 {
-        width: 45vw;
+        width: 30%;
     }
     
-    .container-first-2 {
-        width: 45vw;
-    }
-    
-    .form-container {
-        width: 25vw;
-    }
-    .container-second {
-        gap: 8rem;
-    }
-    .container-third {
-        gap: 10rem;
-    }
-    .container-fourth {
-        gap: 10rem;
-    }
-    .icon-part {
-        width: 20vw;
-    }
     .container-cards {
         gap: 4rem;
     }
     
     .card {
-        width: 17vw;
+        width: 250px;
     }
+    
     .clients-sections {
-        flex-direction: column;
+        gap: 10rem;
     }
 }
+
+/* Tablets (769px - 920px) */
 @media (min-width: 769px) and (max-width: 920px) {
     .nav-bar {
-        gap: 5rem;
-        padding: 1rem 1.5rem;
+        padding: 1rem 3%;
+        gap: 1rem;
     }
     
     .nav-2 ul {
         gap: 1.5rem;
     }
+    
     .container-first-1 {
-        width: 45vw;
-        margin: 3rem;
+        width: 45%;
+        margin: 2rem;
     }
     
     .container-first-1 h1 {
@@ -969,79 +899,86 @@ footer {
     }
     
     .container-first-2 {
-        width: 45vw;
+        width: 45%;
+        align-items: center;
     }
     
     .form-container {
-        width: 35vw;
+        width: 90%;
+        max-width: 350px;
     }
+    
     .social-media {
-        margin: 0.1rem 5rem;
+        padding: 2rem 5%;
     }
     
-    .social-1 {
-        width: 35vw;
-    }
-    
-    .icons {
-        width: 60vw;
-    }
     .container-second {
-        gap: 5rem;
-        padding: 5rem;
+        gap: 3rem;
+        padding: 4rem 5%;
+        flex-wrap: wrap;
     }
     
     .tabs-section button {
-        width: 10vw;
+        width: 100px;
     }
     
     .text-section {
         max-width: 450px;
     }
-    .container-third {
-        gap: 7rem;
-        padding: 2rem;
-    }
     
-    .text-third {
-        width: 40vw;
-    }
-    
-    .img-third img {
-        max-width: 100%;
-    }
+    .container-third,
     .container-fourth {
-        gap: 7rem;
-        padding: 2rem;
-    }
-    
-    .text-fourth {
-        width: 40vw;
-    }
-    
-    .container-fourth img {
-        max-width: 100%;
-    }
-    .icon-part {
-        width: 25vw;
-    }
-    .container-cards {
         gap: 3rem;
+        padding: 3rem 5%;
+        flex-wrap: wrap;
+    }
+    
+    .text-third,
+    .text-fourth {
+        width: 90%;
+        max-width: 500px;
+    }
+    
+    .container-third img,
+    .container-fourth img {
+        max-width: 90%;
+    }
+    
+    .second-part {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .icon-part {
+        width: 40%;
+        min-width: 250px;
+    }
+    
+    .container-cards {
+        gap: 2rem;
     }
     
     .card {
-        width: 22vw;
+        width: 220px;
     }
+    
     .clients-sections {
-        gap: 8rem;
+        gap: 3rem;
+        flex-wrap: wrap;
     }
 }
+
+/* Mobile (up to 768px) */
 @media (max-width: 768px) {
     .nav-bar {
-        gap: 2rem;
+        padding: 1rem 3%;
         justify-content: space-between;
-        padding: 1rem 2rem;
     }
+    
+    .nav-2 ul {
+        gap: 1rem;
+    }
+    
     .container-first {
         flex-direction: column;
         height: auto;
@@ -1061,124 +998,172 @@ footer {
     }
     
     .form-container {
-        width: 80%;
+        width: 90%;
+        max-width: 400px;
         margin: 0 auto;
     }
+    
     .social-media {
         flex-direction: column;
-        margin: 1rem;
-        gap: 1rem;
-    }
-    .social-1 {
-        width: 90%;
-        text-align: center;
-        padding: 1rem;
-    }
-    .icons {
-        width: 100%;
-        padding: 1rem;
-    }
-    .container-second {
-        flex-direction: column;
-        gap: 3rem;
-        padding: 3rem 1rem;
-        height: auto;
-    }
-    .tabs-section button {
-        width: 100px;
-    }
-    .container-third {
-        flex-direction: column-reverse;
-        gap: 3rem;
-        height: auto;
-        padding: 3rem 1rem;
-    }
-    .text-third {
-        width: 90%;
-    }
-    .container-fourth {
-        flex-direction: column;
-        gap: 3rem;
-        height: auto;
-        padding: 3rem 1rem;
-    }
-    .text-fourth {
-        width: 90%;
-        order: 2;
-    }
-    .container-fourth img {
-        order: 1;
-        max-width: 90%;
-    }
-    .container-five {
-        height: auto;
-        padding: 3rem 1rem;
-    }
-    .second-part {
-        flex-direction: column;
-    }
-    .icon-part {
-        width: 90%;
-        margin: 0 auto;
-    }
-    .container-six {
-        height: auto;
-        padding: 3rem 1rem;
-    }
-    .container-cards {
-        flex-direction: column;
+        padding: 2rem 5%;
         gap: 2rem;
     }
     
+    .social-1 {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .icons {
+        width: 100%;
+        justify-content: center;
+        gap: 1.5rem;
+        flex-wrap: wrap;
+    }
+    
+    .container-second {
+        flex-direction: column;
+        gap: 3rem;
+        padding: 3rem 5%;
+        min-height: auto;
+    }
+    
+    .tabs-section {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .tabs-section button {
+        width: 100px;
+    }
+    
+    .text-section {
+        max-width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .container-third,
+    .container-fourth {
+        flex-direction: column;
+        gap: 3rem;
+        min-height: auto;
+        padding: 3rem 5%;
+        text-align: center;
+    }
+    
+    .text-third,
+    .text-fourth {
+        width: 100%;
+        align-items: center;
+    }
+    
+    .title-text {
+        flex-direction: column;
+        text-align: center;
+        gap: 1rem;
+    }
+    
+    .container-third img,
+    .container-fourth img {
+        order: 2;
+        max-width: 100%;
+    }
+    
+    .container-five {
+        min-height: auto;
+        padding: 3rem 5%;
+        gap: 3rem;
+    }
+    
+    .second-part {
+        flex-direction: column;
+        gap: 3rem;
+    }
+    
+    .icon-part {
+        width: 100%;
+        max-width: 300px;
+    }
+    
+    .container-six {
+        min-height: auto;
+        padding: 3rem 5%;
+    }
+    
+    .container-cards {
+        flex-direction: column;
+        gap: 3rem;
+        align-items: center;
+    }
+    
     .card {
-        width: 80%;
+        width: 90%;
+        max-width: 300px;
     }
+    
     .container-seven {
-        height: auto;
-        padding: 3rem 1rem;
+        min-height: auto;
+        padding: 3rem 5%;
     }
+    
     .clients-sections {
         flex-direction: column;
         gap: 3rem;
     }
+    
+    .contact-part-2 {
+        flex-direction: column;
+    }
+    
+    .form-1,
+    .form-2 {
+        width: 100%;
+    }
 }
+
+/* Small Mobile (up to 480px) */
 @media (max-width: 480px) {
     .nav-bar {
         gap: 1rem;
     }
     
     .nav-2 ul {
-        gap: 1rem;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0.8rem;
     }
+    
     .container-first-1 h1 {
         font-size: 1.8rem;
     }
+    
     .form-container {
-        width: 90%;
+        width: 95%;
     }
-    .icons {
-        flex-wrap: wrap;
-        justify-content: center;
+    
+    .tabs-section button {
+        width: 90px;
+        height: 90px;
     }
-    .container-five h3 {
+    
+    h2, h3 {
         font-size: 1.8rem;
     }
-    .container-six h3 {
-        font-size: 1.8rem;
+    
+    .buble {
+        max-width: 100%;
+        background-size: contain;
     }
-    .card {
-        width: 90%;
-    }
-    .container-seven h2 {
-        font-size: 1.8rem;
-    }
-    .container-eight h2 {
-        font-size: 1.8rem;
-    }
-    .contact-part-1 h2 {
-        font-size: 1.8rem;
+    
+    .buble p {
+        width: auto;
+        padding: 60px 15px 40px 15px;
     }
 }
+
+/* Extra Small Mobile (up to 352px) */
 @media (max-width: 352px) {
     .nav-bar {
         flex-direction: column;
@@ -1190,11 +1175,6 @@ footer {
         margin-bottom: 1rem;
     }
     
-    .nav-2 ul {
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 0.8rem;
-    }
     .container-first-1 h1 {
         font-size: 1.5rem;
     }
@@ -1202,43 +1182,26 @@ footer {
     .container-first-1 p {
         font-size: 0.9rem;
     }
-    .social-1 h4 {
-        font-size: 1.2rem;
-    }
-    .icons {
-        gap: 0.5rem;
-    }
-    .text-section h4 {
-        font-size: 1.2rem;
-    }
-    .text-section p {
+    
+    .container-first-1 button {
         font-size: 0.9rem;
     }
-    .container-five h3 {
+    
+    h2, h3 {
         font-size: 1.5rem;
     }
-    .container-six h3 {
-        font-size: 1.5rem;
-    }
-    .container-seven h2 {
-        font-size: 1.5rem;
-    }
-    .buble p {
+    
+    p {
         font-size: 0.9rem;
     }
-    .container-eight h2 {
-        font-size: 1.5rem;
-    }
-    .container-eight p {
+    
+    .tabs-section button {
+        width: 80px;
+        height: 80px;
         font-size: 0.9rem;
     }
-    .contact-part-1 h2 {
-        font-size: 1.5rem;
-    }
-    .contact-part-1 p {
-        font-size: 0.9rem;
+    
+    .grey-part .price span {
+        font-size: 4rem;
     }
 }
-
-
-
