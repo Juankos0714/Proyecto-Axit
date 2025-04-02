@@ -119,22 +119,17 @@ hr {
 
 .form-content {
     padding: 20px;
+    input {
+        width: 100%;
+        padding: 12px;
+        margin-bottom: 15px;
+        border: none;
+        border-bottom: 1px solid #ddd;
+        box-sizing: border-box;
+        font-size: 14px;
+        outline: none;
+    }
 }
-
-input {
-    width: 100%;
-    padding: 12px;
-    margin-bottom: 15px;
-    border: none;
-    border-bottom: 1px solid #ddd;
-    box-sizing: border-box;
-    font-size: 14px;
-}
-
-input::placeholder {
-    color: #ccc;
-}
-
 .btn-1 {
     width: 100%;
     padding: 15px;
@@ -508,6 +503,7 @@ input::placeholder {
                 .customer{
                     display: flex;
                     flex-direction: column;
+                    margin:10rem;
                         .profile{
                             width: 70px;
                             height: 70px;
@@ -538,6 +534,7 @@ input::placeholder {
     text-align: center;
     padding: 100px 20px;
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/bg2.png") no-repeat;
+    background-size: cover;
     color: white;
     height: auto;
     gap: 2rem;
@@ -608,32 +605,30 @@ input::placeholder {
 .contact-part-2 {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
+    height: 20vh;
     width: 100%;
     max-width: 1200px;
     gap: 2rem;
-    margin-bottom: 20px;
+
 }
 
 .form-1 {
     width: 45%;
-}
-
-.form-1 form {
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    justify-content: space-around;
+    height: 100%;
 }
-
 .form-1 input {
     width: 100%;
     padding: 12px;
-    margin-bottom: 15px;
     border: none;
     border-bottom: 1px solid #ddd;
     box-sizing: border-box;
     font-size: 14px;
     outline: none;
+    height: 4.1rem;
 }
 
 .form-1 input::placeholder {
@@ -642,6 +637,7 @@ input::placeholder {
 
 .form-2 {
     width: 45%;
+    height: 100%;
 }
 
 .form-2 textarea {
@@ -713,116 +709,6 @@ footer {
 .making-of a:hover {
     text-decoration: underline;
 }
-@media (min-width: 1600px) {
-    .nav-bar {
-        gap: 32rem;
-    }
-    .container-first-1 {
-        max-width: 700px;
-        margin-left: 10rem;
-    }
-    .container-first-1 h1 {
-        font-size: 3rem;
-    }
-    .form-container {
-        width: 22vw;
-    }
-    .social-media {
-        margin: 0.1rem 15rem;
-    }
-    .container-second {
-        gap: 15rem;
-        padding: 10rem;
-    }
-    .tabs-section button {
-        width: 6vw;
-    }
-    .text-section {
-        max-width: 650px;
-    }
-    .container-third {
-        gap: 20rem;
-    }
-    .text-third {
-        width: 30vw;
-    }
-    .container-fourth {
-        gap: 20rem;
-    }
-    .text-fourth {
-        width: 30vw;
-    }
-    .second-part {
-        gap: 5rem;
-    }
-    .icon-part {
-        width: 18vw;
-        max-width: 350px;
-    }
-    .container-cards {
-        gap: 8rem;
-    }
-    .card {
-        width: 15vw;
-        max-width: 280px;
-    }
-    .clients-sections {
-        gap: 20rem;
-    }
-    .container-first,
-    .container-third,
-    .container-fourth,
-    .container-five,
-    .container-six,
-    .container-seven,
-    .container-nine {
-        padding-left: 10%;
-        padding-right: 10%;
-    }
-}
-/* Large Screens (1280px - 1599px) */
-@media (min-width: 1280px) and (max-width: 1599px) {
-    .nav-bar {
-        padding: 1rem 8%;
-    }
-    
-    .container-first-1 {
-        margin: 4rem;
-    }
-    
-    .container-second {
-        gap: 10rem;
-        padding: 8rem;
-    }
-    
-    .text-section {
-        max-width: 600px;
-    }
-    
-    .container-third,
-    .container-fourth {
-        gap: 15rem;
-    }
-    
-    .text-third,
-    .text-fourth {
-        width: 35%;
-    }
-    
-    .icon-part {
-        width: 20%;
-    }
-    
-    .container-cards {
-        gap: 6rem;
-    }
-    
-    .clients-sections {
-        gap: 15rem;
-    }
-}
-
-/* Medium Large Screens (921px - 1279px) */
 @media (min-width: 921px) and (max-width: 1279px) {
     .nav-bar {
         padding: 1rem 5%;
@@ -877,8 +763,6 @@ footer {
         gap: 10rem;
     }
 }
-
-/* Tablets (769px - 920px) */
 @media (min-width: 769px) and (max-width: 920px) {
     .nav-bar {
         padding: 1rem 3%;
